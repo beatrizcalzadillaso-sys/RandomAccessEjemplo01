@@ -22,7 +22,7 @@ public class Ejemplo {
 			for (int i=0; i<n; i++) {
 				rfile.writeInt(i+1);
 				buffer = new StringBuffer (apellido[i]);
-				buffer.setLength(10);
+				buffer.setLength(12);
 				rfile.writeChars(buffer.toString());
 				rfile.writeInt(dep[i]);
 				rfile.writeDouble(salario[i]);
